@@ -1,0 +1,4 @@
+<rcon>180109</rcon>
+<odx>180109</odx>
+<core>180109</core>
+<motd>This is a test of the network message. This message was successfully returned from the github repo.</motd>
