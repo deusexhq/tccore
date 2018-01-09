@@ -1,9 +1,6 @@
 //Class of generic functions that can be used in various situations
 class CodeBase extends Actor;
 
-const version = "180102";
-
-
 //Ported scripts (Ideas from other languages that UC didn't have
 
 //Split - based on Python
