@@ -79,6 +79,26 @@ function PlayerPawn GetPlayerFromName(string str)
 			return P;
 }
 
+function string GetDate()
+{
+	return level.day$"/"$level.month$"/"$level.year;
+}
+
+function string GetTime()
+{
+local string formattedmin;
+	if(level.minute <= 9)
+	{
+		formattedmin = "0"$level.minute;
+	}
+	else
+	{
+		formattedmin = string(level.minute);
+	}
+	
+	return level.hour$":"$formattedmin;
+}
+
 defaultproperties
 {
 	Lifespan=1

@@ -1,6 +1,6 @@
 class TCCore extends Actor config (TCCore);
 
-const version = "180109";
+const version = "180120";
 var string GSCData;
 var config bool bHasUpdate;
 var float TimeUntilUpdate;
